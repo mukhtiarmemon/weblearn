@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <p>Registrattion Form</p>
+    <form action="thankyou.html" method="GET">
+        <label for="username"> User Name: </label>
+        <input type="text" id="username" name="username" placeholder="Enter username" required>
+        <br>
+        
+        <label for="password"> Password: </label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+        <br>
+        
+        <label for="useremail"> Email: </label>
+        <input type="email" id="useremail" name="useremail" placeholder="Enter email" required>
+        <br>
+        
+        <p>Select Your Gender</p>
+        <label for="male"> Male: </label>
+        <input type="radio" id="male" name="gender" value="male">
+        <br>
+       
+        <label for="female"> Female: </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+       
+        <label for="other"> Other: </label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+
+        <label for="age-group"> Select Age Group: </label>
+        <br>
+        
+        <select id="age-group" name="age-group-value">
+            <option value="5-10">5-10</option>
+            <option value="11-50">11-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br><br>
+
+        <label for="color">Select Color: </label><br>
+        <input type="color" name="" id=""><br>
+
+        <label for="date">Select Date: </label><br>
+        <input type="date" name="date" id="date"><br>
+
+        <label for="date">Select File: </label><br>
+        <input type="file" name="file" id="file"><br>
+
+        
+
+        <label for="comments"> Enter your comments </label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="comments"></textarea>
+        <br><br>
+
+        <input type="submit" value="submit" onclick="alert('sure to submit')">
+
+    </form>
+    
+</body>
+</html>
